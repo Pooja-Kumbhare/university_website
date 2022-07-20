@@ -217,7 +217,7 @@ main #iconbtn .info:hover{
 #course{
     width: 100%;
     height: 100vh;
-    background: #111111;
+    background: #f03e3e;
     color: white;
 }
 
@@ -236,15 +236,15 @@ main #iconbtn .info:hover{
 }
 #courseBoxes{
     margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-between;
     padding-right: 13%;
     padding-left: 13%;
 }
 
 #column{
     flex-basis: 30%;
-    background-image: linear-gradient(to right top, #051937, #0b2d5b, #114381, #155ba9, #1673d4);
+    background: linear-gradient(to right top, #051937, #0b2d5b, #114381, #155ba9, #1673d4);
     color: white;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -282,8 +282,17 @@ main #iconbtn .info:hover{
 }
 #img img{
     /* margin-top: 3rem; */
-    width: 800px;
+    
+    height:150hv;
+    width: 1800px;
     aspect-ratio: 4/2.5;
+}
+.contact{
+    margin-top: 2rem;
+    width: 100%;
+    height: 180vh;
+    background: #051937;
+    color: aliceblue;
 }
 
 
